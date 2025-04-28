@@ -16,7 +16,7 @@
           </button>
         </div>
         <div class="flex-1 order-1 lg:order-2">
-          <NuxtImg src="images/nuxt-course-hero.png" densities="x1" sizes="xs:100vw sm:667px" format="webp" alt="" />
+          <NuxtImg src="/images/nuxt-course-hero.png" densities="x1" sizes="xs:100vw sm:667px" format="webp" alt="" />
         </div>
       </div>
     </section>
