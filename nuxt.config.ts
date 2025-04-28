@@ -22,7 +22,8 @@ export default defineNuxtConfig({
     },
   },
   image: {
-    domains: ['https://cdn.dummyjson.com/'],
+    provider: 'static',
+    domains: ['cdn.dummyjson.com'],
   },
   devtools: { enabled: true },
   modules: [
