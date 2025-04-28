@@ -22,7 +22,7 @@ export default defineNuxtConfig({
     },
   },
   image: {
-    domains: ['cdn.dummyjson.com'],
+    domains: ['dummyjson.com'],
   },
   devtools: { enabled: true },
   modules: [
