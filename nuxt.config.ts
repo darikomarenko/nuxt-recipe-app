@@ -39,4 +39,8 @@ export default defineNuxtConfig({
       Montserrat: true,
     },
   },
+  ssr: false,
+  nitro: {
+    preset: 'static',
+  },
 })
