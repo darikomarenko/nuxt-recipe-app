@@ -4,7 +4,7 @@
   <header class="py-4 border-b">
     <nav class="flex container items-center">
       <NuxtLink to="/" class="flex gap-1 items-center">
-        <NuxtImg width="56" densities="x1" src="/public/images/icon-green.png" alt="" />
+        <img src="/images/icon-green.png" alt="Icon" />
         <span class="text-2xl font-bold">Nuxt Recipes</span>
       </NuxtLink>
       <ul class="flex gap-6 ml-auto text-xl font-bold capitalize">
