@@ -21,6 +21,9 @@ export default defineNuxtConfig({
       }
     },
   },
+  image: {
+    domains: ['https://cdn.dummyjson.com/'],
+  },
   devtools: { enabled: true },
   modules: [
     '@nuxt/eslint',

@@ -5,7 +5,7 @@
     <nav class="flex container items-center">
       <NuxtLink to="/" class="flex gap-1 items-center">
         <NuxtImg width="56px" densities="x1" format="webp" src="/icon-green.png" alt="" />
-        <span class="text-3xl font-bold">Nuxtcipes</span>
+        <span class="text-3xl font-bold">Nuxt Recipes</span>
       </NuxtLink>
       <ul class="flex gap-6 ml-auto text-xl font-bold capitalize">
         <li>
