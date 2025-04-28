@@ -4,6 +4,25 @@ import { type Recipe } from "../../../types/types";
 const { id } = useRoute().params;
 const { data, error } = await useFetch<Recipe>(`https://dummyjson.com/recipes/${id}`);
 
+if (error.value) {
+  throw createError({
+    statusCode: error.value?.statusCode,
+    statusMessage: error.value?.statusMessage,
+  });
+}
+
+useSeoMeta({
+  title: data.value?.name,
+  description: "Recipes for you to cook!",
+  ogTitle: data.value?.name,
+  ogDescription: "Recipes for you to cook!",
+  ogImage: data.value?.image,
+  ogUrl: `http:localhost:3000/recipes/${data.value?.id}`,
+  twitterTitle: data.value?.name,
+  twitterDescription: "Recipes for you to cook!",
+  twitterImage: data.value?.image,
+  twitterCard: "summary",
+});
 </script>
 
 <template>
