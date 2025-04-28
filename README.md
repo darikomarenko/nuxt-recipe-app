@@ -1,75 +1,19 @@
-# Nuxt Minimal Starter
+# Nuxt App using API
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+Stack: Nuxt3 ( + Nuxt 4 features), TypeScript, Tailwind, Nuxt Modules: Image, Icon, GoogleFonts
+<br/>
+See project deployment at: https://nuxt-recipe-app77.vercel.app
 
 ## Setup
 
-Make sure to install dependencies:
-
-```bash
-# npm
 npm install
-
-# pnpm
-pnpm install
-
-# yarn
-yarn install
-
-# bun
-bun install
-```
 
 ## Development Server
 
 Start the development server on `http://localhost:3000`:
 
-```bash
-# npm
 npm run dev
 
-# pnpm
-pnpm dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+<img width="1428" alt="Снимок экрана 2025-04-28 в 16 28 33" src="https://github.com/user-attachments/assets/998ac658-9d95-4290-ba3c-dfb8cd7f605e" />
+<img width="1428" alt="Снимок экрана 2025-04-28 в 16 28 55" src="https://github.com/user-attachments/assets/a960b483-599a-43f6-b414-632bc12b97ac" />
+<img width="1428" alt="Снимок экрана 2025-04-28 в 16 29 13" src="https://github.com/user-attachments/assets/a8e85bc6-def3-43c1-8963-af7a305e1d08" />
